@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\f0-or]
+@="URL:F0-or Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\f0-or\shell]
+
+[HKEY_CLASSES_ROOT\f0-or\shell\open]
+
+[HKEY_CLASSES_ROOT\f0-or\shell\open\command]
+@="powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\f0-or-handler.ps1\" \"%1\""
